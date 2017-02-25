@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.3
  * Author: Xiaoying Riley
@@ -126,6 +126,7 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
+  border-radius: 50%;
 }
 .header .profile-content .name {
   color: #49515a;
