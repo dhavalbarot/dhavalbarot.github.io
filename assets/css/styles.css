@@ -54,6 +54,7 @@ a.btn {
 a.btn .fa {
   margin-right: 5px;
 }
+
 .btn:focus,
 a.btn:focus {
   color: #fff;
@@ -79,6 +80,7 @@ a.btn-cta-secondary,
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
@@ -93,6 +95,17 @@ a.btn-cta-secondary:hover,
   background: #3aaa64;
   font-size: 12px;
 }
+.label-skill-green {
+  background: #3aaa64;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.label-skill-blue {
+  background: #479fc8;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
 a.dotted-link {
   border-bottom: 1px dotted #778492;
   color: #778492;
@@ -537,4 +550,13 @@ iframe {
   .container {
     width: 1360px;
   }
+}
+
+.code {
+    padding: .25em .5em;
+    font-size: 32px;
+    color: #bf616a;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-family: Menlo, Monaco, "Courier New", monospace;
 }
